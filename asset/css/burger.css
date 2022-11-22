@@ -1,0 +1,75 @@
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    padding: 3% 0;
+}
+.logo{
+    h1{
+        font-family: 'merriweather' , 
+        serif;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+.menu{
+    a {
+        font-family: 'kosugi', 
+        'sans serif';
+        color: black;
+        letter-spacing: 40px;
+        margin: 20px;
+    }
+}
+
+.content{
+    .product-image{
+        padding: 5% 0;
+        overflow: hidden;
+        float: left;
+        width: 50%;
+        img{
+            width: 50%;
+        }
+    }
+    .product-desc{
+        float: right;
+        padding: 40px;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 30px;
+        p{
+            font-family: 'roboto', 'sans-serif';
+            line-height: 30px;
+        }
+        .btn{
+            display: inline-block;
+            a{
+                background: black;
+                color: white;
+                padding: 20px 40px;
+                display: inline-block;
+                text-decoration: none;
+                font-family: 'roboto', sans-serif;
+                border-radius: 3px;
+            }
+        }
+        .price{
+            display: inline-block;
+            font-family: 'kosugi', 'sans-serif';
+            padding: 20px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+    }
+}
+.footer{
+    font-size: 12pc;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 30px 0;
+}
